@@ -8,11 +8,11 @@ if (umur >= 13){
   let studio = prompt('Pilih studio: (A, B, atau C)').toUpperCase()
   
   if(studio == 'A'){
-    alert(`Kamu memilih studio A`)
+    alert(`Halo ${nama}, Kamu memilih studio A`)
   }else if(studio == 'B'){
-    alert(`Kamu memilih studio B`)
+    alert(`Halo ${nama}, Kamu memilih studio B`)
   }else if(studio == 'C'){
-    alert(`Kamu memilih studio C`)
+    alert(`Halo ${nama}, Kamu memilih studio C`)
   }else{
     alert('Pilihan tidak valid')
   }
