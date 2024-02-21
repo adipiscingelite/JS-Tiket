@@ -5,7 +5,7 @@ console.log(nama)
 console.log(umur)
 
 if (umur >= 13){
-  let studio = prompt('Pilih studio: (A, B, atau C)')
+  let studio = prompt('Pilih studio: (A, B, atau C)').toUpperCase()
   
   if(studio == 'A'){
     alert(`Kamu memilih studio A`)
