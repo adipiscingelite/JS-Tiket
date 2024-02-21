@@ -4,7 +4,7 @@ const umur = prompt('Masukkan umur: ')
 console.log(nama)
 console.log(umur)
 
-if (umur >= 13){
+if (umur > 13){
   let studio = prompt('Pilih studio: (A, B, atau C)').toUpperCase()
   
   if(studio == 'A'){
